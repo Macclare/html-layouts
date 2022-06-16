@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display');
+
+main{
+    width: 60%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    Padding:0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+    width: 1440px;
+}
+.bright-orange{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 50vh;
+}
+.cyan{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: hsl(184, 100%, 22%);
+    Padding:2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 50vh;
+}
+.dark-cyan{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 50vh;
+}
+.bright-orange h1{
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.cyan  h1{
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.dark-cyan h1{
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+button{
+    margin-top: 40%;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.fontorange{
+    color: hsl(31, 77%, 52%);
+}
+.fontcyan{
+    color: hsl(184, 100%, 22%);
+}
+.fontdark-cyan{
+    color: hsl(179, 100%, 13%);
+}
+button:active{
+    background: none;
+    border: 1px solid white;
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        width: 375px;
+    }
+    main{
+        flex-direction: column;
+    }
+}
